@@ -1,0 +1,21 @@
+.header__links {
+  display: flex;
+  column-gap: 18px;
+  list-style: none;
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  padding: 46px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__links {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 30px 0 0;
+  }
+}

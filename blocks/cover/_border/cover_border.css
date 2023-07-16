@@ -1,0 +1,21 @@
+.cover_border {
+  margin: 0 48px 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover_border {
+    margin: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover_border {
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover_border {
+    margin: 0 0 64px;
+  }
+}
