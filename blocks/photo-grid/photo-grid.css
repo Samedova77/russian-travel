@@ -1,4 +1,5 @@
 .photo-grid {
+  margin: 0 48px 92px;
   max-width: 1184px;
   display: grid;
   grid-template: auto / repeat(auto-fit, minmax(284px, 1fr));
@@ -15,14 +16,16 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
+    margin: 0 24px 88px;
     max-width: 720px;
     grid-template: auto / repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .photo-grid {
+    margin: 0 16px 64px;
     max-width: 288px;
     grid-template: auto / repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
