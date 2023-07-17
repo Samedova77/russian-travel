@@ -21,22 +21,6 @@
   }
 }
 
-/* @media screen and (max-width: 690px) {
-  .footer {
-    margin: 0 16px;
-    padding-bottom: 24px;
-    max-width: 288px;
-    display: block;
-  }
-} */
-
-/* @media screen and (max-width: 425px) {
-  .footer {
-    max-width: 650px;
-    display: block;
-  }
-} */
-
 @media screen and (max-width: 730px) {
   .footer {
     margin: 0 16px;
