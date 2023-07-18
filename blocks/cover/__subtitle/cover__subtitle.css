@@ -10,13 +10,6 @@
   z-index: 1;
 }
 
-@media screen and (min-width: 1280px) {
-  .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     font-size: calc(14px + 4 * ((100vw - 320px) / (767 - 320)));
